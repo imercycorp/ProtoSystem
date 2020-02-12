@@ -21,11 +21,22 @@
 # !!! Help: http://bit.ly/2hYLBDC
 # default = 0 = none
 #
+# ARDUINO : AVR = EEPROM HID SPI SoftwareSerial Wire EEPROM 
+#   HID SPI SoftwareSerial Wire 
+# ARDUINO : MEGAAVR = EEPROM HID SPI SoftwareSerial Wire 
+# ARDUINO : common = Adafruit_Circuit_Playground Bridge 
+#   Esplora Ethernet Firmata GSM Keyboard LiquidCrystal 
+#   Mouse RobotIRremote Robot_Control Robot_Motor SD Servo 
+#   SpacebrewYun Stepper TFT Temboo WiFi 
+#
 APP_LIBS_LIST = 0
 
 # List user's libraries here
 # !!! Help: http://bit.ly/2AEscDx
 # default = 0 = none
+#
+# USER = LEDMatrixDriver LedControl MD_MAX72XX MD_Parola 
+#   MD_UISwitch Matrix Sprite 
 #
 USER_LIBS_LIST = 0
 
@@ -165,3 +176,4 @@ BUILDS_PATH       := $(BUILT_PRODUCTS_DIR)
 BUILDS_PATH_SPACE := $(BUILDS_PATH)
 
 include $(MAKEFILE_PATH)/Step1.mk
+
