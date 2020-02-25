@@ -9,7 +9,7 @@ class Nexus
   public:
     Nexus();
     String Send(String data);
-    String Receive();
+    struct Receive();
     void Link();
     bool Compare(String valAtt);
   private:

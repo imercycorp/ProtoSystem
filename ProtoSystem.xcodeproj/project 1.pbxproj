@@ -3782,90 +3782,6 @@
 			passBuildSettingsInEnvironment = 1;
 			productName = Debug;
 		};
-		0000000000000000AA000001 /* Fast */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = fast;
-			buildConfigurationList = 0020000000000000AA000001 /* Build configuration list for PBXLegacyTarget "Fast" */;
-			buildPhases = (
-			);
-			buildToolPath = make;
-			buildWorkingDirectory = "$(PROJECT)";
-			dependencies = (
-			);
-			name = Fast;
-			passBuildSettingsInEnvironment = 1;
-			productName = Fast;
-			};
-		0000000000000000AA000002 /* Make */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = make;
-			buildConfigurationList = 0020000000000000AA000002 /* Build configuration list for PBXLegacyTarget "Make" */;
-			buildPhases = (
-			);
-			buildToolPath = make;
-			buildWorkingDirectory = "$(PROJECT)";
-			dependencies = (
-			);
-			name = Make;
-			passBuildSettingsInEnvironment = 1;
-			productName = Make;
-			};
-		0000000000000000AA000003 /* Style */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = style;
-			buildConfigurationList = 0020000000000000AA000003 /* Build configuration list for PBXLegacyTarget "Style" */;
-			buildPhases = (
-			);
-			buildToolPath = make;
-			buildWorkingDirectory = "$(PROJECT)";
-			dependencies = (
-			);
-			name = Style;
-			passBuildSettingsInEnvironment = 1;
-			productName = Style;
-			};
-		0000000000000000AA000004 /* Document */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = document;
-			buildConfigurationList = 0020000000000000AA000004 /* Build configuration list for PBXLegacyTarget "Document" */;
-			buildPhases = (
-			);
-			buildToolPath = make;
-			buildWorkingDirectory = "$(PROJECT)";
-			dependencies = (
-			);
-			name = Document;
-			passBuildSettingsInEnvironment = 1;
-			productName = Document;
-			};
-		0000000000000000AA000005 /* Distribute */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = distribute;
-			buildConfigurationList = 0020000000000000AA000005 /* Build configuration list for PBXLegacyTarget "Distribute" */;
-			buildPhases = (
-			);
-			buildToolPath = make;
-			buildWorkingDirectory = "$(PROJECT)";
-			dependencies = (
-			);
-			name = Distribute;
-			passBuildSettingsInEnvironment = 1;
-			productName = Distribute;
-			};
-		0000000000000000AA000006 /* Debug */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = debug;
-			buildConfigurationList = 0020000000000000AA000006 /* Build configuration list for PBXLegacyTarget "Debug" */;
-			buildPhases = (
-			);
-			buildToolPath = make;
-			buildWorkingDirectory = "$(PROJECT)";
-			dependencies = (
-			);
-			name = Debug;
-			passBuildSettingsInEnvironment = 1;
-			productName = Debug;
-			};
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
@@ -3893,24 +3809,6 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = iMercy;
 				TargetAttributes = {
-					0000000000000000AA000001 = {
-						CreatedOnToolsVersion = 6.1;
-					};
-					0000000000000000AA000002 = {
-						CreatedOnToolsVersion = 6.1;
-					};
-					0000000000000000AA000003 = {
-						CreatedOnToolsVersion = 6.1;
-					};
-					0000000000000000AA000004 = {
-						CreatedOnToolsVersion = 6.1;
-					};
-					0000000000000000AA000005 = {
-						CreatedOnToolsVersion = 6.1;
-					};
-					0000000000000000AA000006 = {
-						CreatedOnToolsVersion = 6.1;
-					};
 					4577DBFC23F3F947008D8F35 = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -3974,12 +3872,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0000000000000000AA000001 /* Fast */,
-				0000000000000000AA000002 /* Make */,
-				0000000000000000AA000003 /* Style */,
-				0000000000000000AA000004 /* Document */,
-				0000000000000000AA000005 /* Distribute */,
-				0000000000000000AA000006 /* Debug */,
 				4577DBFC23F3F947008D8F35 /* Build */,
 				4577DBFD23F3F947008D8F35 /* All */,
 				4577DBFE23F3F947008D8F35 /* Share */,
@@ -5056,78 +4948,6 @@
 			};
 			name = Release;
 		};
-		0030000000000000AA000001 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		0040000000000000AA000001 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		0030000000000000AA000002 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		0040000000000000AA000002 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		0030000000000000AA000003 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		0040000000000000AA000003 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		0030000000000000AA000004 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		0040000000000000AA000004 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		0030000000000000AA000005 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		0040000000000000AA000005 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		0030000000000000AA000006 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		0040000000000000AA000006 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -5284,62 +5104,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0020000000000000AA000001 /* Build configuration list for PBXLegacyTarget "Fast" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0030000000000000AA000001 /* Debug */,
-				0040000000000000AA000001 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0020000000000000AA000002 /* Build configuration list for PBXLegacyTarget "Make" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0030000000000000AA000002 /* Debug */,
-				0040000000000000AA000002 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0020000000000000AA000003 /* Build configuration list for PBXLegacyTarget "Style" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0030000000000000AA000003 /* Debug */,
-				0040000000000000AA000003 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0020000000000000AA000004 /* Build configuration list for PBXLegacyTarget "Document" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0030000000000000AA000004 /* Debug */,
-				0040000000000000AA000004 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0020000000000000AA000005 /* Build configuration list for PBXLegacyTarget "Distribute" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0030000000000000AA000005 /* Debug */,
-				0040000000000000AA000005 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0020000000000000AA000006 /* Build configuration list for PBXLegacyTarget "Debug" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0030000000000000AA000006 /* Debug */,
-				0040000000000000AA000006 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 	};
 	rootObject = 4577DBF823F3F947008D8F35 /* Project object */;
 }
-

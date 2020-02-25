@@ -1,9 +1,9 @@
 #include "Arduino.h"
 #include "nexus.h"
 #include "SoftwareSerial.h"
+
 String readString;
 SoftwareSerial SerialP = SoftwareSerial(1,0);
-
 
 //Function start
 Nexus::Nexus() {
@@ -18,13 +18,19 @@ String Nexus::Send(String data){
 	return "OK";
 }
 
-String Nexus::Receive(){
-
+struct Nexus::Receive(){
+    struct ReceiveData {
+      String PInfo = "N";
+      String RInfo = "N";
+    }
+    struct ReceiveData t;
     while(SerialP.available()) {
         delay(10);
-        return SerialP.readStringUntil('p') ;
+        t.PInfo = SerialP.readStringUntil('p');
+        t.RInfo = SerialP.readStringUntil('r');
+        return ReceiveData;
     }
-    return "[ERR - 01000] Nothing To Receive";
+    return ReceiveData;
 
 }
 

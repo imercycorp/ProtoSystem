@@ -38,12 +38,34 @@
 ///
 
 #include "Arduino.h"
+#include "threading.cpp"
+#include "nexus.h"
+
+int PSerial = 0
+int RSerial = 0
+
+Nexus n = Nexus();
 
 void setup()
 {
-
+  PT_INIT(&tmp_t);
+  PT_INIT(&autoRad_t);
+  PT_INIT(&MLed_t);
+  n.Link();
 }
 void loop()
 {
+  struct b = n.Receive();
+  struct b t;
+  autoRad_thread(&autoRad_t, 500);
+  temp_thread(&tmp_t, 500);
+  if (t.PInfo == "N"){
 
+  } else {
+    PSerial = PInfo.toInt()
+    RSerial = PInfo.toInt()
+  }
+  if (PSerial == 1) {
+
+  }
 }
